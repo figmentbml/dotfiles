@@ -1,9 +1,10 @@
 [user]
-	name = Joe Swanson
-	email = joe.swanson@sparkfun.com
+	name = Beth Jaswa
+	email = beth.jaswa@sparkfun.com
 [core]
 	autocrlf = input
 	safecrlf = true
+	editor = vim
 [alias]
     hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [color]
