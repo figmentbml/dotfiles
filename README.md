@@ -11,5 +11,8 @@ up a new machine.
     git fetch
     git branch master origin/master
     git checkout master
+    mkdir -p ~/.vim/bundle
+    git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    vim +BundleInstall
 ```
 
